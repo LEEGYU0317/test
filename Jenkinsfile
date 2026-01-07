@@ -12,7 +12,7 @@ pipeline {
         stage('Connection Test') {
             steps {
                 echo '------------------------------------'
-                echo 'Hello Jenkins! Network is working!!!'
+                echo 'Hello Jenkins! Network is working! Success'
                 echo '------------------------------------'
             }
         }
